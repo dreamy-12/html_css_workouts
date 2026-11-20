@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+}
+.card{
+    border-radius: 2px;
+    /* border:2px solid black; */
+    width: 30%;
+    border-radius:20px;
+    background-color: white;
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.15);
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-image>img{
+    width:100%;
+    height:100%;
+    /* border-radius:20px 20px 0 0; */
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+
+}
+.card-content{
+    padding:25px;
+    padding-bottom:45px;
+}
+
+.brand{
+    color: grey;
+}
+
+.price strong{
+    font-size: 23px;
+
+}
+
+.price del{
+    font-size: 18px;
+    margin-left:8px;
+    color:grey;
+}
+
+.bag-btn
+{
+   position: absolute;
+   right: 25px;
+    bottom: 35px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 22px;
+    cursor: pointer;
+}
